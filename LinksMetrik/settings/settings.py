@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'django_filters',
+
+    # App
+    'backend',
 ]
 
 MIDDLEWARE = [
@@ -79,6 +84,9 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+REDIS_HOST = 'localhost'
+REDIS_PORT = 8080
 
 
 # Password validation
