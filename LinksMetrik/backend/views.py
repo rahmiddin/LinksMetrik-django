@@ -3,7 +3,6 @@ from rest_framework.views import APIView
 from .utils import domain_finder
 from .redis_connect import redis_instance
 from .serializers import DomainSerializer
-
 # Create your views here.
 
 

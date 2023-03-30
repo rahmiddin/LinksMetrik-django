@@ -86,7 +86,7 @@ DATABASES = {
 }
 
 REDIS_HOST = 'localhost'
-REDIS_PORT = 8080
+REDIS_PORT = 8090
 
 
 # Password validation
